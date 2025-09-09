@@ -1,0 +1,115 @@
+.main-header
+{
+    text-align: center;
+    background-color: #74d0ea;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    box-sizing:border-box;
+}
+.main-header.logo
+{
+width: 55px;
+height: 55px;
+padding: 0px 14px;
+margin: 10px 0;
+}
+.main-header.logo img
+{
+    border-radius: 15px;
+}
+.main-header.title
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+h1{
+    color: mediumvioletred;
+}
+.bgimage
+{
+    background-image: url("./bng.image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+}
+.maincomponent
+{
+    display: flex;
+    border: 2px solid black;
+}
+.box{
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#box1
+{
+    background-color: brown;
+}
+#box2
+{
+    background-color:mediumspringgreen;
+}
+.newrotate{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: rgb(228,126,10);
+    transform: width 2s,height 2s,transform 2s;
+}
+#newrotate:hover
+{
+    width: 500px;
+    height: 500px;
+    transform: rotate(180deg);
+}
+@keyframes animid{
+    from{background-color: rgb(195,0,255);}
+    to{background-color: rgb(0,172,66);}
+}
+.animi
+{
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    animation-name:animid;
+    animation-duration: 2s;
+}
+.scrolltext
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    width: 100%;
+    white-space: nowrap;
+    color: goldenrod;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+@keyframes scrollleft{
+    from{transform:translatex(100);}
+    to{transform: translatex(-100);}
+}
+.scrolltext span
+{
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 20s linear infinite;
+    animation-duration: 10s;
+}
+/*scroll left to right*/
+
+
+
+
+
+
+
+
+
