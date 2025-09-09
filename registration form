@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            registration form 
+        </title>
+    </head>
+</body>
+<center>
+    <h1> registration form </h1>
+    <form action="#.php">
+        <input type="text" name="ful name" placeholder="enter the full name" required>
+        <br><br>
+        <input type="email" placeholder="enter the email address">
+        <br><br>
+        <input type="pasword" name="pasword" placeholder="enter the pasword">
+        <br><br>
+        <input type="radio" name="gender" value="male" required>male
+        <input type="radio" name="gender" value="female" required>female
+        <br><br>
+        <input type="number" name="mobile name" placeholder="enter the mobile number"required>
+
+        <br><br>
+        <input type="hidden" value="pranaya" name="names">

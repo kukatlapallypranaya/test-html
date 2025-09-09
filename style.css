@@ -1,0 +1,54 @@
+
+
+
+    
+        body {
+            background-color: aqua;
+            background-image: url("img.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:large;
+        }
+        h1{
+            color: blue;
+            text-align:center;
+            font-size: medium;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-weight: lighter;
+            text-transform: uppercase;
+
+        }
+        p {
+            text-align: center;
+            font-size: large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-weight: lighter;
+            text-transform: capitalize;
+        }
+        img {
+            border-radius: 19%;
+        }
+        .profiledata{
+            color: aqua;
+        }
+        #profiledata{
+            background-color: black;
+            color: aqua;
+        }
+        div{
+            text-align: center;
+            background-color: greenyellow;
+            content: inherit;
+            width: 600px;
+            padding: 17px;
+            border: 4px solid blueviolet;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        
+            
+    
+    
